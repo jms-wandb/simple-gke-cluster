@@ -23,5 +23,5 @@ variable "gke_num_nodes" {
 
 variable "gke_node_type" {
   dedefault = "n1-standard-1"
-  descripdescription = "Type of machine to use for nodes"  
+  description = "Type of machine to use for nodes"  
 }
