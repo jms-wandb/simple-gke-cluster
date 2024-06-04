@@ -20,3 +20,8 @@ variable "gke_num_nodes" {
   default     = 3
   description = "number of gke nodes"
 }
+
+variable "gke_node_type" {
+  dedefault = "n1-standard-1"
+  descripdescription = "Type of machine to use for nodes"  
+}
